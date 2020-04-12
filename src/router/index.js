@@ -26,7 +26,7 @@ const routes = [
     name : 'Homepage'
   },
   {
-    path : '/gossips',
+    path : '/rooms',
     component: Gossippage,
     name : 'Gossippage'
   }
