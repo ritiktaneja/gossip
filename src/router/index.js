@@ -38,4 +38,16 @@ const router = new VueRouter({
   mode:'history'
 })
 
+
+// router.beforeEach((to, from, next) => {
+//   if (sessionStorage.getItem('authToken') !== null || to.path === '/') {
+//     next()
+//   }
+//    else {
+//     next('/')
+//   }
+// })
+
+
+
 export default router
